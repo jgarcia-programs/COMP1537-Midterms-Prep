@@ -21,24 +21,76 @@
           "Helvetica Neue",
           sans-serif;
       }
-
     </style>
   </head>
   <body class="bg-zinc-900">
-    <div class="max-w-screen-lg mx-auto bg-white rounded-t-[30px] h-300">
+    <div class="max-w-screen mx-auto bg-white rounded-t-[30px]">
       <!-- HEADER SECTION (h) -->
-      <header class="m-10">
+      <header class="m-10 pb-20">
         <!-- h: NAVBAR SECTION -->
         <nav class="flex justify-center p-5">
           <ul class="flex gap-5 p-5 bg-zinc-200 rounded-full">
-            <li><a href="#" class="bg-zinc-900 p-3 px-4 text-white rounded-full">Home</a></li>
+            <li>
+              <a href="#" class="bg-zinc-900 p-3 px-4 text-white rounded-full"
+                >Home</a
+              >
+            </li>
             <li><a href="#">Projects</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Blogs</a></li>
             <input type="button" value="Contact" class="pl-5 font-bold" />
           </ul>
         </nav>
-        
+        <!-- h: CONTENT SECTION -->
+        <div class="py-50">
+          <p class="text-3xl">FIRST LAST</p>
+        </div>
+
+        <!-- h: CONTACT SECTION -->
+        <section class="gap-30">
+          <section class="flex">
+            <div class="basis-1/4 space-y-15">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laboriosam omnis voluptatum quod. Tempore accusamus quasi
+                consequatur explicabo tempora et, soluta unde sequi enim,
+                inventore nesciunt dolore facilis iure praesentium accusantium
+                dolorem fuga earum, vero numquam commodi necessitatibus est
+                quibusdam itaque ab. Porro quod excepturi quae asperiores,
+                doloremque vitae consequatur rerum?
+              </p>
+              <input
+                type="button"
+                value="CONTACT ME"
+                id=""
+                class="text-white bg-zinc-900 p-5 px-10 text-3xl rounded-full"
+              />
+            </div>
+            <div class="basis-3/4 self-end">
+              <h2 class="text-7xl">Web Developer and Digital Designer</h2>
+            </div>
+          </section>
+          <!-- SCROLL DOWN -->
+          <div class="flex items-center py-10 justify-end gap-3">
+            <label for="scroll-down" class="text-3xl font-bold">SCROLL DOWN</label>
+            <button id="scroll-down">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="52"
+                height="52"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#000"
+                stroke-width="1"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M15 11l-3 3l-3 -3" />
+                <path d="M12 3a9 9 0 1 0 0 18a9 9 0 0 0 0 -18z" />
+              </svg>
+            </button>
+          </div>
+        </section>
       </header>
     </div>
   </body>
