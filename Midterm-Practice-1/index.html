@@ -6,15 +6,26 @@
     <title>Midterm Practice 1</title>
     <!-- TAILWIND -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <!-- <style>
+    <style>
       * {
-        border: 1px solid darkblue;
+        font-family:
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          Oxygen,
+          Ubuntu,
+          Cantarell,
+          "Open Sans",
+          "Helvetica Neue",
+          sans-serif;
       }
-    </style> -->
+    </style>
   </head>
   <body class="max-w-screen bg-zinc-100">
     <!-- HEADER SECTION (h) -->
-    <header class="p-5">
+    <header class="p-10">
       <section id="header-section" class="flex flex-col gap-10">
         <!-- (h): NAVBAR -->
         <nav class="flex justify-between place-items-center">
@@ -137,5 +148,162 @@
         </div>
       </section>
     </header>
+    <!-- CARD IMAGE SECTION -->
+    <section
+      id="card-image-section"
+      class="p-10 flex justify-center gap-10 overflow-hidden"
+    >
+      <img
+        src="https://picsum.photos/id/235/250/300"
+        alt=""
+        class="flex-1 object-cover rotate-2 rounded-4xl"
+      />
+      <img
+        src="https://picsum.photos/id/234/250/300"
+        alt=""
+        class="flex-1 object-cover -rotate-2 rounded-4xl"
+      />
+      <img
+        src="https://picsum.photos/id/233/250/300"
+        alt=""
+        class="flex-1 object-cover rotate-2 rounded-4xl"
+      />
+    </section>
+    <section
+      id="email-notification"
+      class="border border-gray-500 mx-10 p-4 text-lg my-20"
+    >
+      <div class="flex flex-col gap-2">
+        <div class="flex items-center gap-5">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="45"
+            height="45"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#000"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path
+              d="M12 19h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v5.5"
+            />
+            <path d="M16 19h6" />
+            <path d="M19 16v6" />
+            <path d="M3 7l9 6l9 -6" />
+          </svg>
+          <h2 class="text-2xl font-semibold">Stay up to date</h2>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+          dolore similique, ducimus officiis exercitationem eveniet laborum
+          autem porro culpa corrupti!
+        </p>
+        <div class="flex">
+          <input
+            type="text"
+            value="Email address"
+            id=""
+            class="text-stone-600 p-4 flex-1"
+          />
+          <input
+            type="button"
+            value="Join"
+            id=""
+            class="flex p-4 px-20 bg-[#06b6d4] text-white rounded-md"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- ARTICLES SECTIONS -->
+    <section id="article-section">
+      <div class="m-10 my-30 flex flex-col gap-5">
+        <article class="hover:bg-zinc-200 flex flex-col p-5 gap-5">
+          <p class="border-l-7 border-stone-500 px-3">Feb 14, 2026</p>
+          <h2 class="text-3xl font-semibold">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur a
+            voluptates veritatis reiciendis doloremque obcaecati debitis omnis
+            quidem quisquam sequi quasi quam architecto ab, perspiciatis
+            accusantium consequuntur ex dolores nulla nostrum tempore iusto
+            nobis nam? Minima in dolorum temporibus illo! Commodi perferendis,
+            facere autem culpa dolores rerum porro! Pariatur, asperiores?
+          </p>
+          <div class="flex items-center">
+            <p>Lorem, ipsum.</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+              fill="#06b6d4"
+            >
+              <path
+                d="M7 6l-.112 .006a1 1 0 0 0 -.669 1.619l3.501 4.375l-3.5 4.375a1 1 0 0 0 .78 1.625h6a1 1 0 0 0 .78 -.375l4 -5a1 1 0 0 0 0 -1.25l-4 -5a1 1 0 0 0 -.78 -.375h-6z"
+              />
+            </svg>
+          </div>
+        </article>
+        <article class="hover:bg-zinc-200 flex flex-col p-5 gap-5">
+          <p class="border-l-7 border-stone-500 px-3">Feb 14, 2026</p>
+          <h2 class="text-3xl font-semibold">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur a
+            voluptates veritatis reiciendis doloremque obcaecati debitis omnis
+            quidem quisquam sequi quasi quam architecto ab, perspiciatis
+            accusantium consequuntur ex dolores nulla nostrum tempore iusto
+            nobis nam? Minima in dolorum temporibus illo! Commodi perferendis,
+            facere autem culpa dolores rerum porro! Pariatur, asperiores?
+          </p>
+          <div class="flex items-center">
+            <p>Lorem, ipsum.</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+              fill="#06b6d4"
+            >
+              <path
+                d="M7 6l-.112 .006a1 1 0 0 0 -.669 1.619l3.501 4.375l-3.5 4.375a1 1 0 0 0 .78 1.625h6a1 1 0 0 0 .78 -.375l4 -5a1 1 0 0 0 0 -1.25l-4 -5a1 1 0 0 0 -.78 -.375h-6z"
+              />
+            </svg>
+          </div>
+        </article>
+        <article class="hover:bg-zinc-200 flex flex-col p-5 gap-5">
+          <p class="border-l-7 border-stone-500 px-3">Feb 14, 2026</p>
+          <h2 class="text-3xl font-semibold">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur a
+            voluptates veritatis reiciendis doloremque obcaecati debitis omnis
+            quidem quisquam sequi quasi quam architecto ab, perspiciatis
+            accusantium consequuntur ex dolores nulla nostrum tempore iusto
+            nobis nam? Minima in dolorum temporibus illo! Commodi perferendis,
+            facere autem culpa dolores rerum porro! Pariatur, asperiores?
+          </p>
+          <div class="flex items-center">
+            <p>Lorem, ipsum.</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+              fill="#06b6d4"
+            >
+              <path
+                d="M7 6l-.112 .006a1 1 0 0 0 -.669 1.619l3.501 4.375l-3.5 4.375a1 1 0 0 0 .78 1.625h6a1 1 0 0 0 .78 -.375l4 -5a1 1 0 0 0 0 -1.25l-4 -5a1 1 0 0 0 -.78 -.375h-6z"
+              />
+            </svg>
+          </div>
+        </article>
+      </div>
+    </section>
   </body>
 </html>
