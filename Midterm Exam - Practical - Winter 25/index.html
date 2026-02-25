@@ -10,9 +10,9 @@
     <!-- UNIVERSAL CONTAINER -->
     <div class="bg-[#222222]">
       <!-- HEADER SECTION -->
-      <header class="text-[#fff] p-5">
+      <header class="text-[#fff]">
         <!-- header - NAVBAR SECTION -->
-        <nav class="flex justify-between items-center">
+        <nav class="flex justify-between items-center p-5">
           <h1>company name</h1>
           <section id="right-navbar" class="flex items-center gap-5">
             <h2 class="font-semibold">Let's talk</h2>
@@ -25,17 +25,18 @@
           </section>
         </nav>
         <!-- header - CONTENT SECTION -->
-        <section class="max-w-[768px] mx-auto flex items-center gap-10 py-20">
+        <section
+          class="max-w-[768px] mx-auto flex items-center gap-10 py-20 justify-center"
+        >
           <!-- content - TITLE -->
-          <div>
+          <div class="text-center md:text-left">
             <h2 class="text-6xl font-extrabold">Get a website.</h2>
             <h2 class="text-6xl font-extrabold text-yellow-400">
               Skip the drama
             </h2>
           </div>
-
           <!-- content - LIST -->
-          <ul>
+          <ul class="hidden md:block">
             <li class="flex gap-5">
               <svg
                 class="text-yellow-400"
@@ -109,7 +110,31 @@
             </li>
           </ul>
         </section>
+
+        <!-- header - IMAGE SECTION -->
+        <section class="max-w-[768px] mx-auto">
+          <div
+            id="image-section"
+            class="overflow-hidden flex gap-3 justify-center"
+          >
+            <img
+              src="./1.png"
+              alt=""
+              class="w-1/4 object-cover rounded-2xl translate-y-5"
+            />
+            <img src="./2.png" alt="" class="w-1/4 object-cover rounded-2xl" />
+            <img
+              src="./3.png"
+              alt=""
+              class="w-1/4 object-cover rounded-2xl translate-y-5"
+            />
+          </div>
+        </section>
       </header>
+      <!-- MAIN SECTION -->
+      <main>
+
+      </main>
     </div>
   </body>
 </html>
