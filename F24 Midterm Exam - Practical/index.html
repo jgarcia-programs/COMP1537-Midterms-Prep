@@ -15,11 +15,9 @@
   </head>
   <body class="font-sans">
     <!-- UNIVERSAL CONTAINER -->
-    <div class="">
+    <div class="max-w-screen-lg w-full mx-auto">
       <!-- HERO AND HEADER SECTION -->
-      <header
-        class="max-w-screen-lg w-full bg-[#d91629] text-white pt-4 pb-12 px-4 rounded-2xl mx-auto"
-      >
+      <header class="bg-[#d91629] text-white pt-4 pb-12 px-4 rounded-2xl">
         <!-- NAVBAR SECTION -->
         <nav class="flex justify-between items-center">
           <!-- hero - BRANDING SECTION -->
@@ -59,7 +57,7 @@
         </nav>
         <!-- HERO CONTENT SECTION -->
         <section class="py-10 pb-5">
-          <h1 class="text-4xl">
+          <h1 class="text-5xl">
             Master Coding with Interactive Lessons and Real-World Challenges
           </h1>
           <p class="w-1/2">
@@ -68,6 +66,87 @@
           </p>
         </section>
       </header>
+      <!-- MAIN SECTION -->
+      <main class="max-w-4xl mx-auto py-15 p-5 flex gap-10 flex-col md:flex-row">
+        <!-- main -  LIST SECTION -->
+        <ul class="space-y-6 basis-1/2">
+          <li class="flex items-center gap-3">
+            <img src="./check.svg" alt="" />
+            <p class="text-xl">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia
+              at, asperiores iste molestiae expedita quas.
+            </p>
+          </li>
+          <li class="flex items-center gap-3">
+            <img src="./check.svg" alt="" />
+            <p class="text-xl">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia
+              at, asperiores iste molestiae expedita quas.
+            </p>
+          </li>
+          <li class="flex items-center gap-3">
+            <img src="./check.svg" alt="" />
+            <p class="text-xl">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia
+              at, asperiores iste molestiae expedita quas.
+            </p>
+          </li>
+          <li class="flex items-center gap-3">
+            <img src="./check.svg" alt="" />
+            <p class="text-xl">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia
+              at, asperiores iste molestiae expedita quas.
+            </p>
+          </li>
+        </ul>
+        <!-- main - FORM SECTION -->
+        <section
+          class="text-xl shadow-2xl rounded-xl -mt-[120px] bg-white p-3 basis-2/5 space-y-5"
+        >
+          <h2>Request a demo</h2>
+          <div>
+            <label for="">First Name</label>
+            <input
+              type="text"
+              class="rounded-2xl border border-gray-300 p-4 w-full leading-6 :focus-outline-1 focus:outline-red-500"
+              id=""
+            />
+          </div>
+          <div>
+            <label for="">Last Name</label>
+            <input
+              type="text"
+              class="rounded-2xl border border-gray-300 p-4 w-full leading-6 :focus-outline-1 focus:outline-red-500"
+              id=""
+            />
+          </div>
+          <div>
+            <label for="">Email</label>
+            <input
+              type="text"
+              class="rounded-2xl border border-gray-300 p-4 w-full leading-6 :focus-outline-1 focus:outline-red-500"
+              id=""
+            />
+          </div>
+          <div>
+            <label for="">Purpose<span class="text-red-400">*</span></label>
+            <select
+              name=""
+              id=""
+              class="rounded-2xl border border-gray-300 p-4 w-full leading-6 :focus-outline-1 focus:outline-red-500"
+            >
+              <option
+                value="Education"
+                class="rounded-2xl border border-gray-300 p-4 w-full leading-6 :focus-outline-1 focus:outline-red-500"
+              >
+                Education
+              </option>
+            </select>
+          </div>
+          <!-- BUTTON -->
+          <input type="button" value="Get in touch" class="bg-[#d91629] p-2 px-5 rounded-full text-white" id="" />
+        </section>
+      </main>
     </div>
   </body>
 </html>
