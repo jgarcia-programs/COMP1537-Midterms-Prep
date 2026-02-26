@@ -15,7 +15,7 @@
   </head>
   <body class="font-sans">
     <!-- UNIVERSAL CONTAINER -->
-    <div class="max-w-screen-lg w-full mx-auto">
+    <div class="max-w-screen-lg w-full mx-auto justify-center">
       <!-- HERO AND HEADER SECTION -->
       <header class="bg-[#d91629] text-white pt-4 pb-12 px-4 rounded-2xl">
         <!-- NAVBAR SECTION -->
@@ -67,7 +67,9 @@
         </section>
       </header>
       <!-- MAIN SECTION -->
-      <main class="max-w-4xl mx-auto py-15 p-5 flex gap-10 flex-col md:flex-row">
+      <main
+        class="max-w-4xl mx-auto py-15 p-5 flex gap-10 flex-col md:flex-row"
+      >
         <!-- main -  LIST SECTION -->
         <ul class="space-y-6 basis-1/2">
           <li class="flex items-center gap-3">
@@ -101,9 +103,9 @@
         </ul>
         <!-- main - FORM SECTION -->
         <section
-          class="text-xl shadow-2xl rounded-xl -mt-[120px] bg-white p-3 basis-2/5 space-y-5"
+          class="text-xl shadow-2xl rounded-xl -mt-[120px] bg-white p-3 py-5 basis-2/5 space-y-5"
         >
-          <h2>Request a demo</h2>
+          <h2 class="font-semibold">Request a demo</h2>
           <div>
             <label for="">First Name</label>
             <input
@@ -144,9 +146,36 @@
             </select>
           </div>
           <!-- BUTTON -->
-          <input type="button" value="Get in touch" class="bg-[#d91629] p-2 px-5 rounded-full text-white" id="" />
+          <input
+            type="button"
+            value="Get in touch"
+            class="bg-[#d91629] p-2 px-5 rounded-full text-white"
+            id=""
+          />
         </section>
       </main>
+      <!-- FOOTER SECTION -->
+      <h2 class="text-center py-5">Trusted by</h2>
+      <footer
+        class="bg-[#d91629] text-white p-4 px-10 rounded-2xl flex justify-center gap-10 flex-wrap"
+      >
+        <div class="flex items-center gap-3 text-2xl">
+          <img src="./gihtub.svg" alt="" />
+          <h3>GitHub</h3>
+        </div>
+        <div class="flex items-center gap-3 text-2xl">
+          <img src="./stackoverflow.svg" alt="" />
+          <h3>Stack Overflow</h3>
+        </div>
+        <div class="flex items-center gap-3 text-2xl">
+          <img src="./code-academy.svg" alt="" />
+          <h3>CodeAcademy</h3>
+        </div>
+        <div class="flex items-center gap-3 text-2xl">
+          <img src="./coursera.svg" alt="" />
+          <h3>Coursera</h3>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
